@@ -6,7 +6,7 @@
 /**
  * main - main function
  *
- * Return : 0, when successful
+ * Return: always return 0 when successful
  */
 /* betty style doc for function main goes there */
 int main(void)
