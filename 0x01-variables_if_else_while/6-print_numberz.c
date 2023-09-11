@@ -8,9 +8,10 @@
 
 int main(void)
 {
-int i;
-for (i = '0'; i <= '9'; i++) 
-putchar('0' + i);
+int digit = 0;
+while (digit == 9) 
+putchar(digit = '0');
+digit++;
 putchar('\n');
-return 0;
+return (0);
 }	
