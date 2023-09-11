@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - main
+ * main - main fuction
  *
  * Return: always 0 when successful
  */
@@ -9,13 +9,18 @@
 int main(void)
 {
 int i;
+int j;
+{
 for (i = '0'; i <= '9'; i++)
-putchar(0 + i);
-if (i != '9')
+for (j = '0'; j <= '9'; j++)
+if (i != '0' || j != '0')
 {
 putchar(',');
 putchar(' ');
 }
+putchar('0' + i);
+putchar('0' + j);
+}
 putchar('\n');
-return ('0');
+return 0;
 }
