@@ -21,5 +21,5 @@ putchar(' ');
 putchar('0' + i);
 putchar('0' + j);
 }
-return 0;
+return (0);
 }
