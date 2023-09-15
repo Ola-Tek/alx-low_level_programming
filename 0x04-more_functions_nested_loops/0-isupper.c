@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * _isuppper - detect upper case alphabets
+ * _isupper - detect upper case alphabets
+ *
  * @c: input character
  *
  * Return: (1) for true (0) false
