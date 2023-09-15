@@ -1,6 +1,5 @@
-#ifndef _MAIN_HEADER_FILE
-#define _MAIN_HEADER_FILE
-
+#ifndef MAIN_H
+#define MAIN_H
 int _isupper(int c);
 
 #endif
