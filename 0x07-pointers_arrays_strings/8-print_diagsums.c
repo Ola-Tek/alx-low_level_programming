@@ -5,12 +5,12 @@
  * print_diagsums - prints the sum of two diagonals
  * @a: input value
  * @size: input value
- * Return: void
  */
 
 void print_diagsums(int *a, int size)
 {
 	int sum1, sum2, y;
+
 	sum1 = 0;
 	sum2 = 0;
 
