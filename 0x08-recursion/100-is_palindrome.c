@@ -34,7 +34,7 @@ int compare_string(char *s, int left, int right)
 }
 
 /**
- * is_palindrome - spelling of the string is the same for both forward and backward
+ * is_palindrome - string spelt the same
  * @s: the string to test
  * Return: 1 if it is a palindrome
  */
@@ -43,4 +43,4 @@ int is_palindrome(char *s)
 	if (*s == '\0')
 		return (1);
 	return (compare_string(s, 0, _strlen_recursion(s) - 1));
-}	
+}
