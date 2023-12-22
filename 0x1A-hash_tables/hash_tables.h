@@ -20,6 +20,8 @@ typedef struct hash_node_s
 	struct hash_node_s *next;
 } hash_node_t;
 
+hash_node_t *create_hash_node(const char *key, const char *value);
+
 /**
  * struct hash_table_s - Hash table data structure
  *
